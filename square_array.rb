@@ -6,5 +6,5 @@ def square_array(array)
     squared_array[location]=x^2;
     location += 1;
   end
-  squared_array
+  return squared_array
 end
