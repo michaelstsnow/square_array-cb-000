@@ -3,7 +3,7 @@ def square_array(array)
   squared_array=[];
   location = 0;
   array.each do |x|
-    squared_array[location]=x^2;
+    squared_array[location]=x*x;
     location += 1;
   end
   return squared_array
